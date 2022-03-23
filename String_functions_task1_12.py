@@ -2,8 +2,8 @@
 #identify the middle character of the string"
 name = input("Please enter the name: ");
 count = len(name)
-middle = count//2
-out=str(name[middle])
+mid = count//2
+out=str(name[mid])
 print(f"middle letter of name is {out}")
 
 
